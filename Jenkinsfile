@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/your-username/jenkins-demo.git'
+                git branch: 'main', url: 'https://github.com/GodlyIsOP/jenkins-demo.git'
             }
         }
         stage('Build') {
